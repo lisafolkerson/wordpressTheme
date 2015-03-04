@@ -1,10 +1,10 @@
 /*
-Theme Name: HackerYou Starter Theme
-Theme URI: http://hackeryou.com;
-Description: Starter theme for building any website. Created by HackerYou. Rename this to your own theme page.
+Theme Name: Contemporary Art Gallery Theme
+Theme URI: http://www.lisafolkerson.com;
+Description: Starter theme for building websites for contemporary art gallery.
 Version: 1.0
-Author: HackerYou
-Author URI: http://hackeryou.com
+Author: Lisa Folkerson
+Author URI: http://www.lisafolkerson.com
 */
 /* =============================================================================
                    Normalize, border box and clearfix
@@ -227,7 +227,7 @@ ul li, ol li {
 
 /*PRE*/
 pre {
-  background: #F7F7F7;
+  background: #fcfcfc;
   padding: 10px;
   border-radius: 4px;
   border: 1px solid #ccc; }

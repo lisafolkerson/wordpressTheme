@@ -5,12 +5,12 @@ var notify = require ( 'gulp-notify' );
 
 // Here we define the list of things to happen when we run gulp styles
 gulp.task( 'styles', function() {
-	gulp.src( 'wp-content/themes/theme-hackeryou/style.scss' )
+	gulp.src( 'wp-content/themes/contemporary_art_gallery/style.scss' )
 	.pipe( sass())
-	.pipe( gulp.dest('wp-content/themes/theme-hackeryou/' ))
+	.pipe( gulp.dest('wp-content/themes/contemporary_art_gallery/' ))
 	.pipe( notify ( 'CSS Compiled' ));
 	});
 
 gulp.task( 'watch', function() {
-	gulp.watch('wp-content/themes/theme-hackeryou/style.scss',['styles'])
+	gulp.watch('wp-content/themes/contemporary_art_gallery/style.scss',['styles'])
 	});
